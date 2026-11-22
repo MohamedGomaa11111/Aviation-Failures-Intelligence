@@ -1,70 +1,47 @@
+<div align="center">
+
 # ✈️ Aviation Safety & Fleet Reliability Command Center
+### End-to-End Operational Risk, Fleet Aging & Hardware Failure Telemetry (2019–2026)
 
-![Python](https://img.shields.io/badge/Python-Pandas-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![SQL Server](https://img.shields.io/badge/SQL_Server-T--SQL_&_Star_Schema-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
-![Power BI](https://img.shields.io/badge/Power_BI-DAX_&_HTML_HUD-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+[![Python](https://img.shields.io/badge/Python-Pandas_&_Jupyter-3776AB?style=for-the-badge&logo=python&logoColor=white)](scripts/02_clean_and_model.ipynb)
+[![SQL Server](https://img.shields.io/badge/SQL_Server-T--SQL_&_Star_Schema-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)](Sql/aviation_reliability_analysis.sql)
+[![Power BI](https://img.shields.io/badge/Power_BI-DAX_&_HTML_HUD-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)](Aviation_Safety_Command_Center%20(2).pbix)
+[![Executive Report](https://img.shields.io/badge/Executive_Dossier-PDF_Report-0F172A?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](Aviation%20Safety%20Command%20Center%20Executive%20Report%20(1).pdf)
 
-An end-to-end operational intelligence solution analyzing **496,000+ FAA Service Difficulty Reports (SDR)** spanning **2019–2026** to uncover flight-phase risk patterns, fleet aging stress, OEM reliability benchmarks, and critical aircraft component failures.
+**[Executive Summary](#-executive-summary) • [Architecture & Star Schema](#-system-architecture--star-schema) • [SQL & DAX Engineering](#-sql--dax-engineering-proof-of-work) • [Dashboard Gallery](#-interactive-dashboard-gallery) • [Strategic Recommendations](#-strategic-recommendations)**
+
+</div>
 
 ---
 
-## 📊 Executive KPIs & Key Findings
+## 🎯 Executive Summary
 
-| Metric | Value | Operational Insight |
+Commercial aviation safety relies on detecting structural fatigue and mechanical anomalies **before** an aircraft enters critical flight phases. This project transforms **496,000+ raw Federal Aviation Administration (FAA) Service Difficulty Reports (SDR)** spanning **2019–2026** into a unified **Aviation Safety Command Center**.
+
+By engineering a full **Python ➔ SQL Server ➔ Power BI** pipeline, the solution bridges raw regulatory maintenance logs with executive decision-making—isolating high-risk flight phases, fleet age stress inflection points, OEM defect distributions, and hardware-level failure modes.
+
+### 📊 Core Telemetry Benchmarks
+
+| Telemetry Metric | Measured Value | Operational & Safety Significance |
 | :--- | :---: | :--- |
-| **Total Defect Reports** | **496K** | Multi-year FAA SDR volume across commercial & regional fleets |
-| **Critical Emergencies** | **31K** | High-severity anomalies requiring immediate precautionary procedures |
-| **Critical Emergency Rate** | **6.23%** | Overall ratio of critical emergencies across all reported defects |
-| **Takeoff Emergency Rate** | **76.53%** | Highest-risk flight phase (`67.91%` during Climb) |
-| **Ground Inspection Capture** | **76.62%** | Majority of defects intercepted prior to flight operations |
-| **Aging Fleet Share** | **72.19%** | Defects concentrated in Mature (`30k–60k hrs`) & Aging (`>60k hrs`) aircraft |
-
-### Strategic Takeaways
-* **Takeoff & Climb Concentration:** Although **76.62%** of anomalies are caught during routine maintenance, failures occurring during **Takeoff** carry a **76.53%** critical emergency conversion rate.
-* **Structural Fatigue Dominance:** **Fuselage Structure** accounts for **53.01%** of the top 5 affected systems, with aircraft **SKIN** (`24.2K` reports) as the #1 failing part and **CORRODED** as the dominant physical defect mode.
-* **Severity vs. Volume:** `INOPERATIVE` parts generate the highest volume (`32.8K`), while `FAULTED` (`35.12%`) and `FAILED` (`28.10%`) pose the highest critical emergency risk.
+| **Validated Defect Reports** | **`496K`** | Multi-year FAA SDR incident volume across commercial & regional airframes |
+| **Critical Emergencies** | **`31K`** | High-severity anomalies triggering immediate precautionary procedures (`Codes A–D`) |
+| **Overall Emergency Rate** | **`6.23%`** | Baseline conversion rate from reported defect to critical operational emergency |
+| **Takeoff Emergency Rate** | **`76.53%`** | Highest-risk operational window (`67.91%` during Climb vs. `14.31%` on Approach) |
+| **Ground Inspection Capture** | **`76.62%`** | Share of total defects intercepted proactively prior to flight dispatch |
+| **Aging Fleet Share (`30k+ hrs`)** | **`72.19%`** | Majority of defects originate from Mature (`30k–60k`) & High-Time (`>60k`) airframes |
+| **Primary Structural Vulnerability** | **`53.01%`** | **Fuselage Structure** share of Top 5 systems; **SKIN** (`24.2K`) is the #1 failing part |
+| **Mean Reporting Latency** | **`30.77 Days`** | Average regulatory reporting lag between defect occurrence and FAA submission |
 
 ---
 
-## ⚙️ End-to-End Architecture & Workflow
+## 🏗️ System Architecture & Star Schema
 
-1. **Data Engineering & ETL (`Python / Pandas`)**
-   * Validated schema integrity (`01_schema_check.ipynb`) and standardized **496K+** raw FAA SDR records (`02_clean_and_model.ipynb`), normalizing OEM manufacturer names (`Manufacturer_Clean`), engineering fleet age tiers, and computing reporting compliance latency (`Reporting_Lag_Days`).
-2. **Data Warehousing & T-SQL Analytics (`SQL Server — AviationFailuresDW`)**
-   * Modeled a **Star Schema** (`Fact_Defects`, `Dim_Aircraft`, `Dim_System`, `Dim_Date`).
-   * Authored analytical queries (`Sql/aviation_reliability_analysis.sql`) utilizing **CTEs, `LAG()`, `DENSE_RANK()`, and Window Partitioning** to evaluate YoY defect velocity, OEM system rankings, and flight-phase risk.
-3. **Interactive Executive Dashboard (`Power BI`)**
-   * **Page 1 — Command Briefing (Home):** Custom animated HTML/CSS/SVG telemetry HUD with live DAX KPI cards and cross-page navigation.
-   * **Page 2 — Executive Command Center:** Flight phase risk ranking, fleet age tier stress combo analysis, OEM defect breakdown, and system category treemap.
-   * **Page 3 — Component Deep-Dive:** YoY trend velocity (`2019–2026`), defect condition risk matrix, Top 10 failing hardware components, and Top 5 systems share.
-
----
-
-## 🖥️ Dashboard Preview
-
-### 1. Command Briefing (Landing HUD)
-![Home Briefing](images/01_home_briefing.png)
-
-### 2. Executive Command Center
-![Executive Command Center](images/02_executive_command_center.png)
-
-### 3. Temporal Trends & Component Deep-Dive
-![Component Deep-Dive](images/03_component_deep_dive.png)
-
----
-
-## 📂 Repository Structure
-
-* `Aviation_Safety_Command_Center (2).pbix` — Interactive Power BI report and Star Schema data model.
-* `Aviation Safety Command Center Executive Report (1).pdf` — Executive dossier (Dashboards, Star Schema & SQL proofs).
-* `scripts/` — Jupyter notebooks (`01_schema_check.ipynb`, `02_clean_and_model.ipynb`) for validation, cleaning, and modeling.
-* `Sql/` — T-SQL analytical queries (`aviation_reliability_analysis.sql`).
-* `images/` — High-resolution dashboard screenshots.
-
----
-
-## 👤 Author
-
-**Mohamed Gomaa** — Data Analyst & BI Developer  
-* **Portfolio:** [mohamedgomaa11111.github.io/portfolio](https://mohamedgomaa11111.github.io/portfolio/)  
-* **GitHub:** [@MohamedGomaa11111](https://github.com/MohamedGomaa11111)
+### 1. End-to-End Data Pipeline
+```mermaid
+flowchart LR
+    A[("Raw FAA SDR Logs\n(496K+ Records)")] --> B["🐍 Python ETL\n01_schema_check.ipynb\n02_clean_and_model.ipynb"]
+    B --> C[("🗄️ SQL Server DW\nAviationFailuresDW\nStar Schema")]
+    C --> D["⚡ T-SQL Analytics\nCTEs, LAG, DENSE_RANK\nWindow Partitioning"]
+    C --> E["📊 Power BI HUD\nDAX Measures &\nHTML/CSS Telemetry"]
+    D --> E
