@@ -40,8 +40,8 @@ By engineering a full **Python ➔ SQL Server ➔ Power BI** pipeline, the solut
 ### 1. End-to-End Data Pipeline
 ```mermaid
 flowchart LR
-    A[("Raw FAA SDR Logs\n(496K+ Records)")] --> B["🐍 Python ETL\n01_schema_check.ipynb\n02_clean_and_model.ipynb"]
-    B --> C[("🗄️ SQL Server DW\nAviationFailuresDW\nStar Schema")]
-    C --> D["⚡ T-SQL Analytics\nCTEs, LAG, DENSE_RANK\nWindow Partitioning"]
-    C --> E["📊 Power BI HUD\nDAX Measures &\nHTML/CSS Telemetry"]
+    A[(Raw FAA SDR Logs<br/>496K+ Records)] --> B[Python ETL<br/>Schema Check and Cleaning]
+    B --> C[(SQL Server DW<br/>AviationFailuresDW)]
+    C --> D[T-SQL Analytics<br/>CTEs, LAG, DENSE_RANK]
+    C --> E[Power BI Dashboard<br/>DAX and HTML Telemetry]
     D --> E
