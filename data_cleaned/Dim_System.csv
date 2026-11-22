@@ -1,0 +1,530 @@
+JASCCode,ATA_Chapter,System_Category,System_Key
+2432,24,Electrical Power,1
+2824,28,Fuel System,2
+2612,26,Other / Avionics & Structure,3
+3350,33,Lights,4
+2210,22,Other / Avionics & Structure,5
+5321,53,Fuselage Structure,6
+5610,56,Windows / Windshields,7
+2120,21,Air Conditioning & Pressurization,8
+5210,52,Doors,9
+7200,72,Turbine / Turboprop Engine,10
+5311,53,Fuselage Structure,11
+8010,80,Starting,12
+3040,30,Ice & Rain Protection,13
+2130,21,Air Conditioning & Pressurization,14
+5250,52,Doors,15
+2131,21,Air Conditioning & Pressurization,16
+2750,27,Flight Controls,17
+5310,53,Fuselage Structure,18
+2761,27,Flight Controls,19
+3417,34,Navigation,20
+3246,32,Landing Gear,21
+2565,25,Equipment / Furnishings,22
+3397,33,Lights,23
+5330,53,Fuselage Structure,24
+3297,32,Landing Gear,25
+5344,53,Fuselage Structure,26
+5320,53,Fuselage Structure,27
+3250,32,Landing Gear,28
+2560,25,Equipment / Furnishings,29
+5220,52,Doors,30
+3830,38,Other / Avionics & Structure,31
+2421,24,Electrical Power,32
+5280,52,Doors,33
+3234,32,Landing Gear,34
+5711,57,Wings,35
+5347,53,Fuselage Structure,36
+5315,53,Fuselage Structure,37
+3260,32,Landing Gear,38
+4920,49,Auxiliary Power Unit (APU),39
+5753,57,Wings,40
+3160,31,Other / Avionics & Structure,41
+3460,34,Navigation,42
+2150,21,Air Conditioning & Pressurization,43
+2160,21,Air Conditioning & Pressurization,44
+2611,26,Other / Avionics & Structure,45
+7261,72,Turbine / Turboprop Engine,46
+7230,72,Turbine / Turboprop Engine,47
+2121,21,Air Conditioning & Pressurization,48
+2540,25,Equipment / Furnishings,49
+3230,32,Landing Gear,50
+3233,32,Landing Gear,51
+5712,57,Wings,52
+5345,53,Fuselage Structure,53
+5312,53,Fuselage Structure,54
+5743,57,Wings,55
+7321,73,Engine Fuel & Control,56
+5620,56,Windows / Windshields,57
+4990,49,Auxiliary Power Unit (APU),58
+7334,73,Engine Fuel & Control,59
+7830,78,Engine Exhaust,60
+5350,53,Fuselage Structure,61
+2430,24,Electrical Power,62
+2310,23,Other / Avionics & Structure,63
+2161,21,Air Conditioning & Pressurization,64
+5240,52,Doors,65
+5340,53,Fuselage Structure,66
+5754,57,Wings,67
+5730,57,Wings,68
+5511,55,Stabilizers,69
+2751,27,Flight Controls,70
+5270,52,Doors,71
+5414,54,Nacelles / Pylons,72
+5313,53,Fuselage Structure,73
+5314,53,Fuselage Structure,74
+5341,53,Fuselage Structure,75
+5260,52,Doors,76
+2752,27,Flight Controls,77
+2721,27,Flight Controls,78
+5740,57,Wings,79
+2897,28,Fuel System,80
+7110,71,Powerplant (Engine General),81
+2621,26,Other / Avionics & Structure,82
+3242,32,Landing Gear,83
+2740,27,Flight Controls,84
+7603,76,Engine Controls,85
+7730,77,Engine Indicating,86
+2731,27,Flight Controls,87
+5713,57,Wings,88
+5720,57,Wings,89
+2910,29,Hydraulic Power,90
+3213,32,Landing Gear,91
+5230,52,Doors,92
+7220,72,Turbine / Turboprop Engine,93
+3610,36,Pneumatic,94
+2930,29,Hydraulic Power,95
+7810,78,Engine Exhaust,96
+7120,71,Powerplant (Engine General),97
+3520,35,Oxygen,98
+5322,53,Fuselage Structure,99
+8012,80,Starting,100
+3442,34,Navigation,101
+4970,49,Auxiliary Power Unit (APU),102
+2841,28,Fuel System,103
+7250,72,Turbine / Turboprop Engine,104
+6240,62,Other / Avionics & Structure,105
+7597,75,Engine Air,106
+7714,77,Engine Indicating,107
+2697,26,Other / Avionics & Structure,108
+5751,57,Wings,109
+5514,55,Stabilizers,110
+2913,29,Hydraulic Power,111
+3240,32,Landing Gear,112
+3211,32,Landing Gear,113
+2932,29,Hydraulic Power,114
+2842,28,Fuel System,115
+5242,52,Doors,116
+5700,57,Wings,117
+5755,57,Wings,118
+7797,77,Engine Indicating,119
+7420,74,Ignition,120
+7430,74,Ignition,121
+2230,22,Other / Avionics & Structure,122
+5534,55,Stabilizers,123
+2550,25,Equipment / Furnishings,124
+5412,54,Nacelles / Pylons,125
+3441,34,Navigation,126
+2597,25,Equipment / Furnishings,127
+3411,34,Navigation,128
+7333,73,Engine Fuel & Control,129
+3440,34,Navigation,130
+7900,79,Engine Oil,131
+2781,27,Flight Controls,132
+3620,36,Pneumatic,133
+2163,21,Air Conditioning & Pressurization,134
+5420,54,Nacelles / Pylons,135
+7260,72,Turbine / Turboprop Engine,136
+5512,55,Stabilizers,137
+2810,28,Fuel System,138
+5520,55,Stabilizers,139
+2822,28,Fuel System,140
+2760,27,Flight Controls,141
+8097,80,Starting,142
+4950,49,Auxiliary Power Unit (APU),143
+7310,73,Engine Fuel & Control,144
+2433,24,Electrical Power,145
+7421,74,Ignition,146
+7921,79,Engine Oil,147
+5302,53,Fuselage Structure,148
+2720,27,Flight Controls,149
+2840,28,Fuel System,150
+5522,55,Stabilizers,151
+7530,75,Engine Air,152
+7320,73,Engine Fuel & Control,153
+5540,55,Stabilizers,154
+6520,65,Other / Avionics & Structure,155
+3010,30,Ice & Rain Protection,156
+2213,22,Other / Avionics & Structure,157
+2424,24,Electrical Power,158
+2711,27,Flight Controls,159
+2530,25,Equipment / Furnishings,160
+2497,24,Electrical Power,161
+2780,27,Flight Controls,162
+6230,62,Other / Avionics & Structure,163
+2440,24,Electrical Power,164
+3020,30,Ice & Rain Protection,165
+3340,33,Lights,166
+5531,55,Stabilizers,167
+8011,80,Starting,168
+2797,27,Flight Controls,169
+7410,74,Ignition,170
+5710,57,Wings,171
+5697,56,Windows / Windshields,172
+7700,77,Engine Indicating,173
+2610,26,Other / Avionics & Structure,174
+3241,32,Landing Gear,175
+7732,77,Engine Indicating,176
+7930,79,Engine Oil,177
+2211,22,Other / Avionics & Structure,178
+3320,33,Lights,179
+3897,38,Other / Avionics & Structure,180
+2133,21,Air Conditioning & Pressurization,181
+5744,57,Wings,182
+5532,55,Stabilizers,183
+3222,32,Landing Gear,184
+7920,79,Engine Oil,185
+4910,49,Auxiliary Power Unit (APU),186
+7313,73,Engine Fuel & Control,187
+7722,77,Engine Indicating,188
+7330,73,Engine Fuel & Control,189
+5297,52,Doors,190
+2564,25,Equipment / Furnishings,191
+7510,75,Engine Air,192
+5750,57,Wings,193
+7713,77,Engine Indicating,194
+6710,67,Other / Avionics & Structure,195
+2782,27,Flight Controls,196
+7710,77,Engine Indicating,197
+7400,74,Ignition,198
+7532,75,Engine Air,199
+2400,24,Electrical Power,200
+4940,49,Auxiliary Power Unit (APU),201
+3530,35,Oxygen,202
+4900,49,Auxiliary Power Unit (APU),203
+2800,28,Fuel System,204
+2830,28,Fuel System,205
+3097,30,Ice & Rain Protection,206
+2510,25,Equipment / Furnishings,207
+2912,29,Hydraulic Power,208
+7520,75,Engine Air,209
+7314,73,Engine Fuel & Control,210
+2741,27,Flight Controls,211
+5300,53,Fuselage Structure,212
+5200,52,Doors,213
+3030,30,Ice & Rain Protection,214
+5630,56,Windows / Windshields,215
+5415,54,Nacelles / Pylons,216
+3220,32,Landing Gear,217
+5542,55,Stabilizers,218
+3120,31,Other / Avionics & Structure,219
+3412,34,Navigation,220
+2520,25,Equipment / Furnishings,221
+3243,32,Landing Gear,222
+5246,52,Doors,223
+2820,28,Fuel System,224
+2700,27,Flight Controls,225
+3251,32,Landing Gear,226
+3425,34,Navigation,227
+3416,34,Navigation,228
+3400,34,Navigation,229
+7312,73,Engine Fuel & Control,230
+3150,31,Other / Avionics & Structure,231
+3231,32,Landing Gear,232
+2140,21,Air Conditioning & Pressurization,233
+2710,27,Flight Controls,234
+4960,49,Auxiliary Power Unit (APU),235
+3244,32,Landing Gear,236
+3444,34,Navigation,237
+3810,38,Other / Avionics & Structure,238
+4930,49,Auxiliary Power Unit (APU),239
+3310,33,Lights,240
+2742,27,Flight Controls,241
+3800,38,Other / Avionics & Structure,242
+2997,29,Hydraulic Power,243
+3210,32,Landing Gear,244
+2730,27,Flight Controls,245
+2917,29,Hydraulic Power,246
+5241,52,Doors,247
+3436,34,Navigation,248
+2701,27,Flight Controls,249
+6300,63,Other / Avionics & Structure,250
+6720,67,Other / Avionics & Structure,251
+7933,79,Engine Oil,252
+3418,34,Navigation,253
+2562,25,Equipment / Furnishings,254
+8530,85,Other / Avionics & Structure,255
+8510,85,Other / Avionics & Structure,256
+7322,73,Engine Fuel & Control,257
+7697,76,Engine Controls,258
+3421,34,Navigation,259
+6340,63,Other / Avionics & Structure,260
+7412,74,Ignition,261
+7414,74,Ignition,262
+8550,85,Other / Avionics & Structure,263
+3422,34,Navigation,264
+6210,62,Other / Avionics & Structure,265
+3414,34,Navigation,266
+6322,63,Other / Avionics & Structure,267
+2460,24,Electrical Power,268
+6111,61,Other / Avionics & Structure,269
+2500,25,Equipment / Furnishings,270
+6122,61,Other / Avionics & Structure,271
+5102,51,Other / Avionics & Structure,272
+2197,21,Air Conditioning & Pressurization,273
+5510,55,Stabilizers,274
+3270,32,Landing Gear,275
+2350,23,Other / Avionics & Structure,276
+2435,24,Electrical Power,277
+6114,61,Other / Avionics & Structure,278
+8520,85,Other / Avionics & Structure,279
+6310,63,Other / Avionics & Structure,280
+6730,67,Other / Avionics & Structure,281
+2436,24,Electrical Power,282
+6220,62,Other / Avionics & Structure,283
+6510,65,Other / Avionics & Structure,284
+5346,53,Fuselage Structure,285
+8120,81,Other / Avionics & Structure,286
+2916,29,Hydraulic Power,287
+7323,73,Engine Fuel & Control,288
+8500,85,Other / Avionics & Structure,289
+5100,51,Other / Avionics & Structure,290
+2450,24,Electrical Power,291
+3510,35,Oxygen,292
+2300,23,Other / Avionics & Structure,293
+5714,57,Wings,294
+2170,21,Air Conditioning & Pressurization,295
+7160,71,Powerplant (Engine General),296
+6330,63,Other / Avionics & Structure,297
+3232,32,Landing Gear,298
+2561,25,Equipment / Furnishings,299
+3597,35,Oxygen,300
+2397,23,Other / Avionics & Structure,301
+3420,34,Navigation,302
+7931,79,Engine Oil,303
+5544,55,Stabilizers,304
+2162,21,Air Conditioning & Pressurization,305
+2420,24,Electrical Power,306
+6410,64,Other / Avionics & Structure,307
+6123,61,Other / Avionics & Structure,308
+5343,53,Fuselage Structure,309
+3300,33,Lights,310
+2622,26,Other / Avionics & Structure,311
+2823,28,Fuel System,312
+5101,51,Other / Avionics & Structure,313
+3212,32,Landing Gear,314
+7600,76,Engine Controls,315
+5244,52,Doors,316
+7297,72,Turbine / Turboprop Engine,317
+5752,57,Wings,318
+3697,36,Pneumatic,319
+7997,79,Engine Oil,320
+5411,54,Nacelles / Pylons,321
+5541,55,Stabilizers,322
+5523,55,Stabilizers,323
+5543,55,Stabilizers,324
+5410,54,Nacelles / Pylons,325
+5530,55,Stabilizers,326
+6320,63,Other / Avionics & Structure,327
+5247,52,Doors,328
+3000,30,Ice & Rain Protection,329
+2212,22,Other / Avionics & Structure,330
+7932,79,Engine Oil,331
+3200,32,Landing Gear,332
+2100,21,Air Conditioning & Pressurization,333
+3443,34,Navigation,334
+3197,31,Other / Avionics & Structure,335
+7497,74,Ignition,336
+2425,24,Electrical Power,337
+7397,73,Engine Fuel & Control,338
+7300,73,Engine Fuel & Control,339
+7311,73,Engine Fuel & Control,340
+3100,31,Other / Avionics & Structure,341
+7240,72,Turbine / Turboprop Engine,342
+3423,34,Navigation,343
+6110,61,Other / Avionics & Structure,344
+3433,34,Navigation,345
+5524,55,Stabilizers,346
+2330,23,Other / Avionics & Structure,347
+4997,49,Auxiliary Power Unit (APU),348
+5400,54,Nacelles / Pylons,349
+2200,22,Other / Avionics & Structure,350
+2570,25,Equipment / Furnishings,351
+2410,24,Electrical Power,352
+3497,34,Navigation,353
+4980,49,Auxiliary Power Unit (APU),354
+7910,79,Engine Oil,355
+2613,26,Other / Avionics & Structure,356
+6100,61,Other / Avionics & Structure,357
+1100,11,Other / Avionics & Structure,358
+7197,71,Powerplant (Engine General),359
+2434,24,Electrical Power,360
+5497,54,Nacelles / Pylons,361
+2220,22,Other / Avionics & Structure,362
+2843,28,Fuel System,363
+2370,23,Other / Avionics & Structure,364
+2422,24,Electrical Power,365
+2600,26,Other / Avionics & Structure,366
+7210,72,Turbine / Turboprop Engine,367
+5413,54,Nacelles / Pylons,368
+2620,26,Other / Avionics & Structure,369
+5521,55,Stabilizers,370
+6120,61,Other / Avionics & Structure,371
+3446,34,Navigation,372
+7712,77,Engine Indicating,373
+6140,61,Other / Avionics & Structure,374
+7740,77,Engine Indicating,375
+2923,29,Hydraulic Power,376
+7711,77,Engine Indicating,377
+2931,29,Hydraulic Power,378
+3080,30,Ice & Rain Protection,379
+2340,23,Other / Avionics & Structure,380
+2722,27,Flight Controls,381
+3252,32,Landing Gear,382
+3415,34,Navigation,383
+7100,71,Powerplant (Engine General),384
+3060,30,Ice & Rain Protection,385
+5342,53,Fuselage Structure,386
+2297,22,Other / Avionics & Structure,387
+7331,73,Engine Fuel & Control,388
+2437,24,Electrical Power,389
+2844,28,Fuel System,390
+5552,55,Stabilizers,391
+7720,77,Engine Indicating,392
+3445,34,Navigation,393
+3140,31,Other / Avionics & Structure,394
+2320,23,Other / Avionics & Structure,395
+3130,31,Other / Avionics & Structure,396
+3454,34,Navigation,397
+2911,29,Hydraulic Power,398
+7922,79,Engine Oil,399
+5500,55,Stabilizers,400
+5245,52,Doors,401
+5741,57,Wings,402
+3450,34,Navigation,403
+2132,21,Air Conditioning & Pressurization,404
+2934,29,Hydraulic Power,405
+2360,23,Other / Avionics & Structure,406
+6197,61,Other / Avionics & Structure,407
+7721,77,Engine Indicating,408
+3431,34,Navigation,409
+7411,74,Ignition,410
+7602,76,Engine Controls,411
+2920,29,Hydraulic Power,412
+5742,57,Wings,413
+3457,34,Navigation,414
+3424,34,Navigation,415
+3456,34,Navigation,416
+2312,23,Other / Avionics & Structure,417
+3435,34,Navigation,418
+5243,52,Doors,419
+3840,38,Other / Avionics & Structure,420
+5324,53,Fuselage Structure,421
+5553,55,Stabilizers,422
+7332,73,Engine Fuel & Control,423
+3201,32,Landing Gear,424
+2311,23,Other / Avionics & Structure,425
+3245,32,Landing Gear,426
+2921,29,Hydraulic Power,427
+2821,28,Fuel System,428
+3820,38,Other / Avionics & Structure,429
+7500,75,Engine Air,430
+3430,34,Navigation,431
+7170,71,Powerplant (Engine General),432
+2563,25,Equipment / Furnishings,433
+7130,71,Powerplant (Engine General),434
+3451,34,Navigation,435
+3221,32,Landing Gear,436
+7897,78,Engine Exhaust,437
+7800,78,Engine Exhaust,438
+2915,29,Hydraulic Power,439
+5397,53,Fuselage Structure,440
+2933,29,Hydraulic Power,441
+3110,31,Other / Avionics & Structure,442
+6420,64,Other / Avionics & Structure,443
+2572,25,Equipment / Furnishings,444
+5551,55,Stabilizers,445
+3710,37,Other / Avionics & Structure,446
+7540,75,Engine Air,447
+8000,80,Starting,448
+3410,34,Navigation,449
+3413,34,Navigation,450
+3797,37,Other / Avionics & Structure,451
+2571,25,Equipment / Furnishings,452
+3600,36,Pneumatic,453
+5797,57,Wings,454
+5597,55,Stabilizers,455
+3452,34,Navigation,456
+7620,76,Engine Controls,457
+6200,62,Other / Avionics & Structure,458
+7731,77,Engine Indicating,459
+5640,56,Windows / Windshields,460
+5600,56,Windows / Windshields,461
+6130,61,Other / Avionics & Structure,462
+6700,67,Other / Avionics & Structure,463
+7601,76,Engine Controls,464
+5554,55,Stabilizers,465
+6113,61,Other / Avionics & Structure,466
+3500,35,Oxygen,467
+7270,72,Turbine / Turboprop Engine,468
+7324,73,Engine Fuel & Control,469
+2110,21,Air Conditioning & Pressurization,470
+3700,37,Other / Avionics & Structure,471
+8300,83,Other / Avionics & Structure,472
+4500,45,Other / Avionics & Structure,473
+3461,34,Navigation,474
+1400,14,Other / Avionics & Structure,475
+7820,78,Engine Exhaust,476
+5513,55,Stabilizers,477
+3330,33,Lights,478
+6540,65,Other / Avionics & Structure,479
+8540,85,Other / Avionics & Structure,480
+5248,52,Doors,481
+5323,53,Fuselage Structure,482
+6321,63,Other / Avionics & Structure,483
+6297,62,Other / Avionics & Structure,484
+3432,34,Navigation,485
+8560,85,Other / Avionics & Structure,486
+2431,24,Electrical Power,487
+2216,22,Other / Avionics & Structure,488
+2927,29,Hydraulic Power,489
+3720,37,Other / Avionics & Structure,490
+6397,63,Other / Avionics & Structure,491
+2900,29,Hydraulic Power,492
+6500,65,Other / Avionics & Structure,493
+1800,18,Other / Avionics & Structure,494
+5533,55,Stabilizers,495
+7112,71,Powerplant (Engine General),496
+7111,71,Powerplant (Engine General),497
+3050,30,Ice & Rain Protection,498
+2914,29,Hydraulic Power,499
+7531,75,Engine Air,500
+5550,55,Stabilizers,501
+2551,25,Equipment / Furnishings,502
+2770,27,Flight Controls,503
+2215,22,Other / Avionics & Structure,504
+1220,12,Other / Avionics & Structure,505
+1497,14,Other / Avionics & Structure,506
+6711,67,Other / Avionics & Structure,507
+1430,14,Other / Avionics & Structure,508
+1410,14,Other / Avionics & Structure,509
+2315,23,Other / Avionics & Structure,510
+1230,12,Other / Avionics & Structure,511
+3453,34,Navigation,512
+6400,64,Other / Avionics & Structure,513
+1420,14,Other / Avionics & Structure,514
+2134,21,Air Conditioning & Pressurization,515
+2214,22,Other / Avionics & Structure,516
+3070,30,Ice & Rain Protection,517
+2423,24,Electrical Power,518
+4597,45,Other / Avionics & Structure,519
+1210,12,Other / Avionics & Structure,520
+8200,82,Other / Avionics & Structure,521
+8397,83,Other / Avionics & Structure,522
+2926,29,Hydraulic Power,523
+2922,29,Hydraulic Power,524
+6440,64,Other / Avionics & Structure,525
+5301,53,Fuselage Structure,526
+6121,61,Other / Avionics & Structure,527
+6597,65,Other / Avionics & Structure,528
+1810,18,Other / Avionics & Structure,529
